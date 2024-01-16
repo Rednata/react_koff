@@ -1,3 +1,7 @@
-export const Main = () => (<main>
+import { Goods } from '../../components/Goods/Goods';
 
-</main>);
+export const Main = () => (
+  <main>
+    {/* <Catalog /> */}
+    <Goods />
+  </main>);

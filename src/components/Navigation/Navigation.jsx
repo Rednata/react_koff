@@ -1,6 +1,7 @@
 import s from './Navigation.module.scss';
 import CartIcon from './bag.svg?react';
-import HeartIcon from './heart.svg?react';
+import { HeartIcon } from '../HeartIcon/HeartIcon';
+
 
 export const Navigation = () => (
   <nav className={s.navigation}>
